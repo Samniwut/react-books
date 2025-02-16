@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10rem;
+    color: white;
+    background-color: var(--main-color);
+}
+.logo{
+    font-size: 30px;
+}
+.sell{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
