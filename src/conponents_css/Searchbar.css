@@ -1,0 +1,26 @@
+.search-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: auto;
+    padding: 1rem 4rem;
+    margin: 5px auto;
+ }
+ .search-content .search-box input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 0 3rem;
+ }
+ .search-content .step-sell button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: yellow;
+    font-weight: 600;
+ }
