@@ -1,0 +1,77 @@
+.flash-sala {
+  display: grid;
+  /* align-items: center; */
+  width: 70%;
+  height: auto;
+  margin: 10px auto;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  background-color: #ffff;
+  padding: 20px;
+  /* grid-template-areas:
+    "recomment recomment flash"
+    "recomment recomment flash"
+    "recomment recomment flash"
+    ; */
+}
+.time-sale {
+  font-size: 30px;
+  font-weight: 600;
+}
+.recomment-crad {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+  gap: 20px;
+  padding: 0 2rem;
+
+  img {
+    width: 80px;
+    height: auto;
+  }
+  button {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(55, 0, 255);
+    color: #f2f2f2;
+  }
+}
+
+.flash {
+  display: flex;
+  flex-direction: column;
+}
+.books-sale {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.crad-books-sale {
+  /* border: 1px solid black; */
+  gap: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+  }
+
+
+  button {
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(55, 0, 255);
+    color: #f2f2f2;
+  }
+}
