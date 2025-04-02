@@ -9,13 +9,13 @@ export const Navbar = () => {
         </div>
         <div className="sell">
             <div className="promotion">
-                โปรโมชั่น
+                <a href="">โปรโมชั่น</a>
             </div>
             <div className="login">
-                Login
+                <a href="">Login</a>
             </div>
             <div className="shop">
-                shop
+                <a href="">shop</a>
             </div>
         </div>
     </div>

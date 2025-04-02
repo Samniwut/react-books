@@ -5,6 +5,11 @@
     padding: 10px 10rem;
     color: white;
     background-color: var(--main-color);
+
+    a{
+        text-decoration:none ;
+        color: white;
+    }
 }
 .logo{
     font-size: 30px;

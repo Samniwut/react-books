@@ -6,11 +6,11 @@ function Footer() {
     <div className="content-footer">
       <div className="footer-content-logo">
         <h1>Books Sela</h1>
-        <p>โปรชั่น</p>
-        <p>หนังสือ</p>
-        <p>EBook</p>
-        <p>นิตยาสาร</p>
-        <p>มังงะ</p>
+        <a href="#">โปรชั่น</a>
+        <a href="#">หนังสือ</a>
+        <a href="#">EBook</a>
+        <a href="#">นิตยาสาร</a>
+        <a href="#">มังงะ</a>
       </div>
       <div className="footer-content-contact">
         <h1>ติดต่อ</h1>
