@@ -7,7 +7,9 @@
 }
 :root{
   --main-color: rgb(21, 21, 248);
+  --main-color-1 : #FBF3D5;
+  --font-color : #9CAFAA;
 }
 body{
-  background-color: #e8e8e8;
+  background-color: var(--main-color-1);
 }
